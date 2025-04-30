@@ -1,5 +1,4 @@
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
         // Aplica os estilos dinamicamente para desabilitar links
         const style = document.createElement("style");
         style.textContent = `
@@ -20,4 +19,3 @@
         disableHasLink('.progressBarCell.futureNotCompleted');
         disableHasLink('.progressBarCell.completed');
     });
-</script>
